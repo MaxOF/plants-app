@@ -1,0 +1,64 @@
+.header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+
+  .header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    .header__blockLogo{
+      margin: 40px 0 40px 40px;
+      cursor: pointer;
+      img {
+
+      }
+    }
+
+    .header__menu{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 40px 0 0;
+      .menu__item{
+        cursor: pointer;
+      }
+      .menu__item:not(:last-child) {
+        margin: 0 40px 0 0;
+      }
+      .menu__buttonReg{
+        background: #FFFFFF;
+        padding: 11px 28px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(20 / 14 * 100%);
+        text-align: center;
+        color: #156963;
+        border: 1px solid #FFFFFF;
+      }
+      .menu__buttonReg:hover{
+        background: #156963;
+        color: #FFFFFF;
+        border: 1px solid #156963;
+      }
+      .menu__buttonLogIn{
+        background: #156963;
+        padding: 11px 28px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: calc(20 / 14 * 100%);
+        text-align: center;
+        color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+      }
+      .menu__buttonLogIn:hover{
+        background: #FFFFFF;
+        color: #156963;
+        border: 1px solid #156963;
+      }
+    }
+  }
+
+}
