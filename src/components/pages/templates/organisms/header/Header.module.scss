@@ -5,28 +5,59 @@
   width: 100%;
   z-index: 50;
 
+
   .header__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     border: 1px solid black;
+    min-height: 140px;
+
     .header__blockLogo{
       margin: 40px 0 40px 40px;
       cursor: pointer;
       img {
-
       }
     }
+    @media (max-width: 780px) {
+      .header__blockLogo {
+        margin: 20px 0 20px 20px;
+      }
+    }
+    @media (max-width: 550px) {
+      .header__blockLogo {
+        margin: 10px 0 10px 10px;
+      }
+    }
+
 
     .header__menu{
       display: flex;
       flex-wrap: wrap;
       margin: 0 40px 0 0;
+
       .menu__item{
         cursor: pointer;
       }
       .menu__item:not(:last-child) {
         margin: 0 40px 0 0;
+      }
+      @media (max-width: 780px) {
+        .menu__item:not(:last-child) {
+          margin: 0 30px 0 0;
+        }
+      }
+      @media (max-width: 550px) {
+        .menu__item:not(:last-child) {
+          margin: 0 20px 0 0;
+        }
+      }
+      @media (max-width: 420px) {
+        .menu__item {
+          flex: 0 1 40%;
+          padding: 20px 0 0 48px;
+          text-align: center;
+        }
       }
       .menu__buttonReg{
         background: #FFFFFF;
@@ -37,6 +68,16 @@
         text-align: center;
         color: #156963;
         border: 1px solid #FFFFFF;
+      }
+      @media (max-width: 780px) {
+        .menu__buttonReg {
+          padding: 8px 23px;
+        }
+      }
+      @media (max-width: 550px) {
+        .menu__buttonReg {
+          padding: 8px 12px;
+        }
       }
       .menu__buttonReg:hover{
         background: #156963;
@@ -53,12 +94,33 @@
         color: #FFFFFF;
         border: 1px solid #FFFFFF;
       }
+      @media (max-width: 780px) {
+        .menu__buttonLogIn {
+          padding: 8px 23px;
+        }
+      }
+      @media (max-width: 550px) {
+        .menu__buttonLogIn {
+          padding: 8px 12px;
+        }
+      }
       .menu__buttonLogIn:hover{
         background: #FFFFFF;
         color: #156963;
         border: 1px solid #156963;
       }
     }
+    @media (max-width: 780px) {
+      .header__menu {
+        margin: 0 20px 0 0;
+      }
+    }
+    @media (max-width: 550px) {
+      .header__menu {
+        margin: 0 10px 0 0;
+      }
+    }
+
   }
 
 }
