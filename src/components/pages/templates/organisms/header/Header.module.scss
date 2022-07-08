@@ -1,15 +1,14 @@
 .header {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 50;
+
   .header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    border: 1px solid black;
     min-height: 200px;
     .header__blockLogo {
       margin: 40px 0 40px 40px;
@@ -46,6 +45,7 @@
           min-height: 28px;
           letter-spacing: 0.2px;
           transition: all 0.3s ease 0s;
+          border-radius: 10px;
         }
         .menu__buttonReg:hover {
           background: #156963;
@@ -61,7 +61,7 @@
           text-align: center;
           color: #FFFFFF;
           border: 1px solid #FFFFFF;
-
+          border-radius: 10px;
           letter-spacing: 0.2px;
           transition: all 0.3s ease 0s;
         }
