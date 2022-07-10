@@ -9,7 +9,7 @@ import kecubung3 from '../../../../../utils/img/cards/05.jpg';
 
 export const Cards = () => {
     return (
-        <div className={s.page__cards}>
+        <section className={s.page__cards}>
             <div className={`${styles.container} ${s.cards__container}`}>
                 <div className={s.cards__body}>
                     <h3 className={s.cards__title}>
@@ -75,6 +75,6 @@ export const Cards = () => {
                 </div>
 
             </div>
-        </div>
+        </section>
     );
 };

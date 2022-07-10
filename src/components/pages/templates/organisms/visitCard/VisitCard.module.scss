@@ -1,0 +1,95 @@
+.page__visitCard{
+  .visitCard__container{
+    .visitCard__body{
+      min-height: 360px;
+      background: #F3F4F6;
+      margin: 80px 40px 0 40px;
+      display: flex;
+      flex-wrap: wrap;
+      .visitCard__header{
+        flex: 0 1 50%;
+        margin: 88px 0 88px 97px;
+        h3{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: calc(56 / 40 * 100%);
+          color: #2C1500;
+        }
+        div{
+          margin: 32px 0 32px 0;
+        }
+        div a{
+          font-weight: 500;
+          font-size: 14px;
+          line-height: calc(20 / 14 * 100%);
+          text-align: center;
+          padding: 10px 42px;
+          transition: all 0.3s ease 0s;
+          color: #FAFEFE;
+          background: #156963;
+          border: 1px solid #156963;
+          border-radius: 12px;
+        }
+        div a:hover{
+          color: #156963;
+          background: #FAFEFE;
+          border: 1px solid #156963;
+        }
+      }
+      .plant{
+        flex: 0 1 40%;
+        background: #F3F4F6;
+      }
+      .plant img {
+        width: 480px;
+        height: 360px;
+      }
+
+    }
+    @media (max-width: 1300px) {
+      .visitCard__body{
+        justify-content: center;
+        align-items: center;
+        margin: 40px 40px 0 40px;
+        .visitCard__header{
+          margin: 60px 0 20px 0;
+          flex: 0 1 70%;
+          text-align: center;
+        }
+        .plant{
+          flex: 0 1 50%;
+        }
+      }
+    }
+    @media (max-width: 610px) {
+      .visitCard__body{
+        margin: 40px 40px 0 40px;
+        .visitCard__header{
+          margin: 40px 0 20px 0;
+          h3{
+            font-size: 28px;
+          }
+        }
+        .plant img{
+          width: 280px;
+          height: 250px;
+        }
+      }
+    }
+    @media (max-width: 410px) {
+      .visitCard__body{
+        margin: 80px 10px 0 10px;
+        .visitCard__header{
+          div a{
+            padding: 10px 22px;
+          }
+        }
+        .plant img{
+          width: 230px;
+          height: 210px;
+        }
+      }
+    }
+
+  }
+}
