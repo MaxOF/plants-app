@@ -12,9 +12,9 @@ export const Cards = () => {
         <div className={s.page__cards}>
             <div className={`${styles.container} ${s.cards__container}`}>
                 <div className={s.cards__body}>
-                    <div className={s.cards__title}>
+                    <h3 className={s.cards__title}>
                         Featured Plants
-                    </div>
+                    </h3>
                     <div className={s.cards__list}>
                         <div className={s.card__body}>
                             <div className={s.card__icon}>

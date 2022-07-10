@@ -4,6 +4,7 @@ import {Header} from "./components/pages/templates/organisms/header/Header";
 import {Main} from "./components/pages/templates/organisms/main/Main";
 import {Services} from "./components/pages/templates/organisms/services/Services";
 import {Cards} from "./components/pages/templates/organisms/cards/Cards";
+import {Intro} from "./components/pages/templates/organisms/intro/Intro";
 
 export const App = () => {
     return (
@@ -13,6 +14,7 @@ export const App = () => {
                 <Main />
                 <Services />
                 <Cards />
+                <Intro />
             </main>
         </div>
     );

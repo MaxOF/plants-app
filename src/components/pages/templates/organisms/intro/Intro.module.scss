@@ -1,0 +1,81 @@
+.page__intro{
+  .intro__container{
+    .intro__body{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 65px 40px 30px 40px;
+      .intro__textBlock{
+        max-width: 568px;
+        margin: 0 65px 74px 0;
+        flex: 0 1 43%;
+        h2{
+          font-weight: 700;
+          font-size: 40px;
+          line-height: calc(56 / 40 * 100%);
+          color: #2C1500;
+          padding: 0 0 16px 0;
+        }
+        div{
+          font-weight: 400;
+          font-size: 16px;
+          line-height: calc(28 / 16 * 100%);
+          color: #2C1500;
+          opacity: 0.8;
+        }
+      }
+      .wall{
+        flex: 0 1 49%;
+        text-align: right;
+      }
+      .wall img{
+        width: 513px;
+        height: 609.9px;
+      }
+      .paint{
+        flex: 0 1 30%;
+        margin: -250px 0 0 0;
+      }
+      .paint img{
+        width: 568px;
+        height: 250px;
+      }
+
+    }
+    @media (max-width: 1260px) {
+      .intro__body{
+        justify-content: center;
+        align-items: center;
+        .intro__textBlock{
+          flex: 0 1 70%;
+          text-align: center;
+          margin: 0 0 30px 0;
+        }
+        .wall{
+          flex: 1 1 50%;
+          text-align: center;
+        }
+        .paint{
+          margin: 40px 0 0 0;
+          text-align: center;
+        }
+      }
+      @media (max-width: 640px) {
+        .intro__body {
+          margin: 35px 40px 30px 40px;
+
+          .intro__textBlock {
+            flex: 0 1 100%;
+          }
+          .wall img{
+            width: 280px;
+            height: 365px;
+          }
+          .paint img{
+            width: 280px;
+            height: 138px;
+          }
+        }
+      }
+    }
+  }
+}
