@@ -6,6 +6,7 @@ import {Services} from "./components/pages/templates/organisms/services/Services
 import {Cards} from "./components/pages/templates/organisms/cards/Cards";
 import {Intro} from "./components/pages/templates/organisms/intro/Intro";
 import {VisitCard} from "./components/pages/templates/organisms/visitCard/VisitCard";
+import {Footer} from "./components/pages/templates/organisms/footer/Footer";
 
 export const App = () => {
     return (
@@ -18,6 +19,7 @@ export const App = () => {
                 <Intro />
                 <VisitCard />
             </main>
+            <Footer />
         </div>
     );
 }

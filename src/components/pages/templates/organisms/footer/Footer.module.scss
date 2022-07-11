@@ -1,0 +1,133 @@
+.page__footer{
+  .footer__container {
+
+    .footer__body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-top: 1px solid gray;
+      margin: 0 40px 0 40px;
+      padding: 60px 97px 60px 97px;
+
+      .footer__addressBlock {
+        flex: 0 1 29%;
+        margin: 0 100px 0 0;
+
+        .footer__title {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 100%;
+          letter-spacing: 0.05em;
+          text-transform: uppercase;
+          color: #156963;
+          margin: 0 0 24px 0;
+        }
+
+        .footer__name {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: calc(19 / 16 * 100%);
+          color: #333333;
+          margin: 0 0 10px 0;
+        }
+
+        .footer__address {
+          font-weight: 400;
+          font-size: 13px;
+          line-height: calc(20 / 13 * 100%);
+          color: #4F4F4F;
+        }
+      }
+
+      .footer__column {
+        flex: 0 1 12%;
+        margin: 0 90px 0 0;
+
+        h4 {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 100%;
+          color: #000000;
+          margin: 0 0 20px 0;
+        }
+
+        div {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: calc(16 / 14 * 100%);
+          color: #000000;
+          margin: 0 0 14px 0;
+        }
+      }
+
+      .footer__socials {
+        flex: 0 1 10%;
+
+        div {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 100%;
+          color: #000000;
+          margin: 0 0 20px 0;
+        }
+
+        .footer__socialsBlock {
+          display: flex;
+          align-items: center;
+
+          a {
+            text-align: center;
+          }
+
+          a:not(:last-child) {
+            margin: 0 20px 0 0;
+          }
+
+          a img {
+
+          }
+        }
+      }
+    }
+
+    @media (max-width: 1315px) {
+      .footer__body {
+        .footer__socials:last-child {
+          margin: 40px 0 0 0;
+        }
+      }
+    }
+    @media (max-width: 1000px) {
+      .footer__body {
+        justify-content: space-evenly;
+
+        .footer__column {
+          margin: 40px 80px 0 0;
+        }
+
+        .footer__addressBlock {
+          flex: 0 1 60%;
+        }
+      }
+
+    }
+    @media (max-width: 670px) {
+      .footer__body {
+        border-top: 0;
+        justify-content: space-between;
+        padding: 45px;
+        .footer__column {
+          flex: 0 1 60%;
+        }
+        .footer__addressBlock {
+          flex: 1 1 60%;
+        }
+      }
+    }
+    @media (max-width: 370px) {
+      .footer__body {
+        padding: 25px;
+      }
+    }
+  }
+}
