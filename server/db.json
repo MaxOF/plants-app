@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "crokster1996@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "cards": [
+    {
+      "id": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "title": "Kaktus",
+      "price": 900
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://images.unsplash.com/photo-1509223197845-458d87318791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=949&q=80",
+      "title": "Kaktus2",
+      "price": 1000
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://images.unsplash.com/photo-1508022713622-df2d8fb7b4cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "title": "Kaktus2",
+      "price": 700
+    },
+    {
+      "id": 4,
+      "imageUrl": "https://images.unsplash.com/photo-1509937528035-ad76254b0356?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1024&q=80",
+      "title": "Kaktus2",
+      "price": 800
+    },
+    {
+      "id": 5,
+      "imageUrl": "https://images.unsplash.com/photo-1509645470620-c9c349934693?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+      "title": "Kaktus2",
+      "price": 1100
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "imageUrl": "https://images.unsplash.com/photo-1509423350716-97f9360b4e09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+      "title": "Kaktus",
+      "price": 900
+    }
+  ]
+}
